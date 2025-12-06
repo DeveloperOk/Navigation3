@@ -21,6 +21,9 @@ class MainActivity : ComponentActivity() {
 
     //Navigation3 link
     //https://www.youtube.com/watch?v=G_e9XL5tI6U
+    //https://github.com/philipplackner/Nav3Guide/tree/1-nav3-basics
+    //https://developer.android.com/guide/navigation/navigation-3
+    //https://github.com/android/nav3-recipes
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
