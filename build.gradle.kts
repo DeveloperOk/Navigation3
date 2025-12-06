@@ -5,5 +5,5 @@ plugins {
     alias(libs.plugins.kotlin.compose) apply false
 
     //Navigation3
-    kotlin("plugin.serialization") version "1.5.0" apply false
+    kotlin("plugin.serialization") version "2.2.21" apply false
 }

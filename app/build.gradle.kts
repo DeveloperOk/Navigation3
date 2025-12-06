@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 
     //Navigation3
-    kotlin("plugin.serialization") version "1.5.0"
+    kotlin("plugin.serialization") version "2.2.21"
 
 }
 
@@ -51,7 +51,7 @@ dependencies {
     val navigation3Version = "1.0.0"
     implementation("androidx.navigation3:navigation3-runtime:$navigation3Version")
     implementation("androidx.navigation3:navigation3-ui:$navigation3Version")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.4")
     implementation("androidx.lifecycle:lifecycle-viewmodel-navigation3:2.10.0")
 
